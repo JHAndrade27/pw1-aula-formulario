@@ -2,49 +2,40 @@
 <html lang="pr-br">
   <head>
     <meta charset="UTF-8" />
-    <title>Cardapio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Pontos Turisticos</title>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <center>
-      <table border=5>
-      
-      <tr>
-        <th>Descrição</th>
-        <th>Valor</th>
-        <th>Produto</th>
-      </tr>
-    <h1>Cardápio2.0</h1>
-    <h4>João Henrique Lemos de Andrade - 2411852
-      <h1>teste</h1>
-    <br/>
+   
+<h1>Pontos Turisticos</h1><br>
 
-    <tr>
-       <td><p>Whopper</p></td>
-        <td><p>R$ 00,00</p></td>
-    <td><img
-      src="Banner-Whopper-principal-m.jpg"
-      alt="">
-  
-      </tr>
-  
-      <tr>
-        <td><p>Gost Papper </p></td>
-          <td><p> R$ 00,00</p></td>
-      <td><img
-        src="teste2.jpg"
-        alt=""></td>
-      </tr>
-    
-      <tr>
-          <td><p>Gren Bay</p></td>
-            <td><p>R$ 00,00</p></td>
-        <td><img
-          src="teste1.jpeg"
-          alt=""></td>
-        </tr>
-      
+<div class="carrossel" >
+  <div class="carrosel_iner">
+      <img src="./images/copacabana.jpg" alt="copacabana">
+      <img src="./images/chile.jpg" alt="">
+      <img src="./images/teste.png" alt="">
+  </div>
+</div>
 
+<label class="label_name" for="name">Nome:</label><br>
+<input type="text" placeholder="Digite seu Nome:" id="name"><br><br> 
+
+<label class="label_email" for="email">Email:</label><br>
+<input type="email" placeholder="Digite seu Email" id="email"><br><br>
+
+<label class="label_senha" for="password">Senha:</label><br>
+<input type="password" placeholder="Digite sua Senha" id="senha"><br><br>
+
+
+<h3>questionario</h3>
+
+<h4>Você ja Andou de Avião</h4>
+<input type="radio" id="sim" name="questionario"><label for="sim">Sim</label><br>
+<input type="radio" id="nao" name="quaetionario"><label for="nao">Não</label><br><br>
+
+
+
+<button type="button">enviar</button> 
 
   </body>
 </html>
